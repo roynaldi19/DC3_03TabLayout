@@ -7,7 +7,6 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 class SectionsPagerAdapter(activity: AppCompatActivity): FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {
         return 2
-
     }
 
     override fun createFragment(position: Int): Fragment {
@@ -17,6 +16,5 @@ class SectionsPagerAdapter(activity: AppCompatActivity): FragmentStateAdapter(ac
             1 -> fragment = ProfileFragment()
         }
         return fragment as Fragment
-
     }
 }
