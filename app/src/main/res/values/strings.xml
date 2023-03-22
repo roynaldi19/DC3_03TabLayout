@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BFAA03_05TabLayout</string>
+    <string name="app_name">DC3_03TabLayout</string>
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Profile</string>
     <string name="tab_text_3">Setting</string>
